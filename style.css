@@ -1,0 +1,24 @@
+/* header color #FFFFFF */
+/* шапка #2F303A */
+/* наша команда color #F5F4FA */
+/* синій #2196F3 */
+
+.Web {
+  color: #2196f3;
+}
+
+.studio-col {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover {
+  color: #2196f3;
+}
