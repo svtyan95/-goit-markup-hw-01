@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
@@ -14,54 +14,60 @@
     <!-- шапка сайта -->
     <header>
         <nav>
-        <a href=""> 
-            <span class="Web">Web</span><span class="studio-col">Studio</span>
-        </a>
-
-        <ul class="site-nav list">
-            <li><a href="" class="link">Студія</a></li>
-            <li><a href="" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
-        </ul>
-
+            <!-- header left -->
         <ul>
-            <li><a href="mailto: info@devstudio.com">info@devstudio.com<a></li>
-            <li>+38 096 111 11 11</li>
+            <li>
+                <a href="">
+                    <span>Web</span>
+                    <span>Studio</span>
+                </a>
+            </li>
+            <li><a href="" >Студія</a></li>
+            <li><a href="" >Портфоліо</a></li>
+            <li><a href="" >Контакти</a></li>
         </ul>
+
         </nav>
+
+        <!-- header right -->
+        <ul>
+            <li><a href="mailto: info@devstudio.com">info@devstudio.com<a></a></li>
+
+            <li><a href="tel: +380961111111">+380961111111</a></li>
+        </ul>
     </header>
     
 <main>
 
-    <!-- це мій мастер блок -->
+    <!-- section hero -->
     <section>
         <section>
             <h1>Ефективні рішення для<br> вашого бізнесу</h1>
-            <a href="">Замовити послугу</a>
+            <button type="button"><a href="">Замовити послугу</a></button>
         </section>
     </section>
 
 
     <!-- заголовок "Чим ми займаємося" -->
-    <section class="list">
-        <ul>
+    <section>
+        <div ><ul>
             <li><h3>УВАГА ДО ДЕТАЛЕЙ</h3><p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
 
             <li><h3>ПУНКТУАЛЬНІСТЬ</h3><p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
             <li><h3>ПЛАНУВАННЯ</h3><p>Так само консультація з широким активом значною мірою зумовлює.</p></li>
             <li><h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3><p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
-        </ul>
+        </ul></div>
 
-        <h2>Чим ми займаємося</h2>
+        <div><h2>Чим ми займаємося</h2>
       
         <ul>
-            <li><img src="./images/img copy.png" alt=""
+            <li><img src="./images/img copy.png" alt="keybord-photo"
              width="370" height="294px"></li>
 
-            <li><img src="./images/box 2 copy.png" alt="" width="370" height="294px"></li>
+            <li><img src="./images/box 2 copy.png" alt="phone-laptop" width="370" height="294px"></li>
 
-            <li><img src="./images/box 3 copy.png" alt="" width="370" height="294px"></li>
-        </ul>
+            <li><img src="./images/box 3 copy.png" alt="tablet" width="370" height="294px"></li>
+        </ul></div>
 
     </section>
 
@@ -69,12 +75,47 @@
     <!-- заголовок "Наша команда"  -->
     <section>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <!-- Ігор Дем'яненко -->
+            <li>
+                <figure><img src="./images/Ігор Дем'яненко.jpg" alt="Ігор Дем'яненко" width="270px" height="260">
+                <figcaption>Ігор Дем'яненко</figcaption>
+                <figcaption>Product Designer</figcaption>
+                </figure>
+            </li>
+
+            <!-- Ольга Рєпіна -->
+            <li>
+                <figure><img src="./images/Ольга Рєпіна.jpg" alt="Ольга Рєпіна" width="270px" height="260">
+                <figcaption>Ольга Рєпіна</figcaption>
+                <figcaption>Frontend Developer</figcaption>
+                </figure>
+            </li>
+            
+            <!-- Микола Тарасов -->
+            <li>
+                <figure><img src="./images/Микола Тарасов.jpg" alt="Микола Тарасов" width="270px" height="260">
+                <figcaption>Микола Тарасов</figcaption>
+                <figcaption>Marketing</figcaption>
+                </figure>
+            </li>
+
+            <!-- Михайло Єрмаков -->
+            <li>
+                <figure><img src="./images/Михайло Єрмаков.jpg" alt="Михайло Єрмаков" width="270px" height="260">
+                <figcaption>Михайло Єрмаков</figcaption>
+                <figcaption>UI Designer</figcaption>
+                </figure>
+            </li>
+
+
         </ul>
+
+
     </section>
+
+
+
+
 
 </main>
 
@@ -82,14 +123,16 @@
     <footer>
        <section>
         <ul>
-            <li><a href="">WebStudio</a></li>
+            <li><a href="/">
+                <span>Web</span>
+                <span >Studio</span>
+            </a></li>
+            
             <li><address>м. Київ, пр-т Лесі Українки, 26</address></li>
             <li><a href="mailto: info@devstudio.com">info@devstudio.com<a></li>
             <li>+38 096 111 11 11</li>
         </ul>
        </section>
     </footer>
-
-
 </body>
 </html>
